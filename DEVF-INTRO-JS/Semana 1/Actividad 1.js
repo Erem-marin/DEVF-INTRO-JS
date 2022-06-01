@@ -14,8 +14,8 @@ console.log(restaNumeros)
 // Cálculo de área de circulo r=5.3
 
 console.log("Bienvenido al cálculo del área de un círculo")
-var pi = 3.141592;
-var radioCirculo = 5.3;
+const pi = 3.141592;
+const radioCirculo = 5.3;
 var areaCirculo = pi * (radioCirculo**2);
 console.log("El área es: ",areaCirculo);
 
