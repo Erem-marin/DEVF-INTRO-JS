@@ -15,7 +15,7 @@ if(edad >= 18 && nombre == 'Carlos'){
 }
 
 
-//. Piedra, papel o tijera
+//2. Piedra, papel o tijera
 
 
 //Piedra = 1
