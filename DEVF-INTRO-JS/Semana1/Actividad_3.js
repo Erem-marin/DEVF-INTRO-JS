@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //1. Acceso al bar con condicionales
 
 console.log ("Bienvenido al bar");
