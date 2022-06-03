@@ -54,7 +54,7 @@ if(Number.isInteger(division)){
     console.log('El número ' + numero + ' no es divisible entre 2');
 }
 
-//4. Números primos
+//4. Números pares
 
 const npar = prompt('Ingrese un número',0);
 let comprobacion = npar%2;
@@ -79,8 +79,8 @@ if(boleto == 1000){
 //6. ¿Cuál es menor?
 
 alert('Por favor ingrese 2 números');
-const numero1 = prompt('Ingrese un número',0);
-const numero2 = prompt('Ingrese otro número',0);
+const numero1 = Number (prompt('Ingrese un número',0));
+const numero2 = Number (prompt('Ingrese otro número',0));
 
 if(numero1 > numero2){
     console.log(numero2 + ' es menor que ' + numero1);
@@ -91,9 +91,9 @@ if(numero1 > numero2){
 
 //7. Mayor de tres números
 
-let pnumero = prompt('Ingrese el primer número',0);
-let snumero = prompt('Ingrese el segundo número',0);
-let tnumero = prompt('Ingrese el tercer número',0);
+let pnumero = Number (prompt('Ingrese el primer número',0));
+let snumero = Number (prompt('Ingrese el segundo número',0));
+let tnumero = Number (prompt('Ingrese el tercer número',0));
 
 if(pnumero > snumero && pnumero > tnumero){
     console.log('El primer número es mayor');
@@ -117,6 +117,8 @@ if(pnumero > snumero && pnumero > tnumero){
     console.log('Todos los números son iguales')
 }else if(pnumero < snumero && snumero > tnumero){
     console.log('El segundo número es mayor')
+}else if(pnumero < snumero && snumero < tnumero){
+    console.log('El tercer número es mayor')
 }else{
     console.log('Por favor vuelva a intentarlo')
 }
